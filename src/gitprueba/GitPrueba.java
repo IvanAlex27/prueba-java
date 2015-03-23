@@ -26,6 +26,7 @@ public class GitPrueba {
 
         Map<String, List<String>> gruposIntegrantes = new HashMap<>();
         List<String> integrantres = new ArrayList<>();
+        
         integrantres.add("Oscar");
         integrantres.add("Luis");
         integrantres.add("Ivan");
