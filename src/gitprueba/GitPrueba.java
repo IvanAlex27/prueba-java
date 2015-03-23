@@ -11,6 +11,7 @@ public class GitPrueba {
      */
     public static void main(String[] args) {
         System.out.println("Hola bola de Cuechos ");
+        System.out.println("Yo soy Cuecho! ");
     }
     
 }
