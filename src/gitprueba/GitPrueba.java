@@ -21,7 +21,7 @@ public class GitPrueba {
     public static void main(String[] args) {
         System.out.println("Que la fuerza los acompañe");
         System.out.println("Hola bola de Cuechos ");
-        System.out.println("Yo soy Cuecho! ");
+        System.out.println("Yo soy Tu padre perro! ");
         System.out.println("Estan hechos unos san bernardos!!!! ");
 
         Map<String, List<String>> gruposIntegrantes = new HashMap<>();
