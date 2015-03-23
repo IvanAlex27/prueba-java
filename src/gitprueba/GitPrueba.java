@@ -1,6 +1,8 @@
 package gitprueba;
 
+import java.util.ArrayList;
 import java.util.Collections;
+import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import javax.annotation.Resource;
@@ -22,8 +24,8 @@ public class GitPrueba {
         System.out.println("Yo soy Cuecho! perros y perras (bueno menos el perro aguayo) ");
         System.out.println("Estan hechos unos san bernardos!!!! ");
 
-        Map<String, List<String>> gruposIntegrantes = Collections.EMPTY_MAP;
-        List<String> integrantres = Collections.EMPTY_LIST;
+        Map<String, List<String>> gruposIntegrantes = new HashMap<>();
+        List<String> integrantres = new ArrayList<>();
         integrantres.add("Oscar");
         integrantres.add("Luis");
         integrantres.add("Ivan");
