@@ -26,16 +26,18 @@ public class GitPrueba {
 
         Map<String, List<String>> gruposIntegrantes = new HashMap<>();
         List<String> integrantres = new ArrayList<>();
-        
+
         integrantres.add("Oscar");
         integrantres.add("Luis");
         integrantres.add("Ivan");
         integrantres.add("Pavel");
-        
+
         Imprime imprime = new Imprime();
         imprime.imprimir(integrantres);
 
         gruposIntegrantes.put("Cuechos", integrantres);
+
+        throw new Excepcion(Excepcion.CAUSE.OBJETO_EXISTENTE, "Suelten a los perros");
 
     }
 
