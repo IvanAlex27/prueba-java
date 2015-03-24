@@ -23,15 +23,15 @@ public class GitPrueba {
         System.out.println("Hola bola de Cuechos ");
         System.out.println("Yo soy Cuecho! perros y perras :) ");
         System.out.println("Estan hechos unos san bernardos!!!! ");
-
+        System.out.println("Estan hechos unos san bernardos!!!! ");
         Map<String, List<String>> gruposIntegrantes = new HashMap<>();
         List<String> integrantres = new ArrayList<>();
-        
+
         integrantres.add("Oscar");
         integrantres.add("Luis");
         integrantres.add("Ivan");
         integrantres.add("Pavel");
-        
+
         Imprime imprime = new Imprime();
         imprime.imprimir(integrantres);
 
